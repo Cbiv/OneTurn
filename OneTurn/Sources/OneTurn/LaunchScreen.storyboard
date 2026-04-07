@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="24123" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="LaunchScreenViewController">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="24119"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="LaunchScreenViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="mCk-Lx-yVm">
+                                <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" text="ONE TURN" textAlignment="natural" lineBreakMode="tailTruncation" minimumScaleFactor="0.69999999999999996" translatesAutoresizingMaskIntoConstraints="NO" id="W2L-EN-lPC">
+                                        <rect key="frame" x="118" y="400" width="157.66666666666669" height="25"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="22"/>
+                                        <color key="textColor" red="0.92549019607843142" green="0.90980392156862744" blue="0.87450980392156863" alpha="0.92000000000000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" name="LaunchBackground"/>
+                                <constraints>
+                                    <constraint firstItem="W2L-EN-lPC" firstAttribute="centerY" secondItem="mCk-Lx-yVm" secondAttribute="centerY" constant="-14" id="EQu-0D-IJO"/>
+                                    <constraint firstItem="W2L-EN-lPC" firstAttribute="centerX" secondItem="mCk-Lx-yVm" secondAttribute="centerX" id="XIP-qL-KUq"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="mCk-Lx-yVm" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="0hH-aY-DG2"/>
+                            <constraint firstAttribute="bottom" secondItem="mCk-Lx-yVm" secondAttribute="bottom" id="3n0-Y2-ptl"/>
+                            <constraint firstAttribute="trailing" secondItem="mCk-Lx-yVm" secondAttribute="trailing" id="D7V-Px-1Mo"/>
+                            <constraint firstItem="mCk-Lx-yVm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="ohY-bT-rjA"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <namedColor name="LaunchBackground">
+            <color red="0.058823529411764705" green="0.066666666666666666" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

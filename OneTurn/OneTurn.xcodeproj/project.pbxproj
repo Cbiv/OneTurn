@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 63;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		028B0F55E1C9E4940D970B2A /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA2860209C0CCD69E825726 /* OnboardingView.swift */; };
+		0A0A4C43BDE93D91DB8325A0 /* DiagnosticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A4C42BDE93D91DB8325A0 /* DiagnosticsService.swift */; };
+		0A0A4C45BDE93D9FDB8325A0 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0A4C44BDE93D9FDB8325A0 /* AnalyticsService.swift */; };
+		201F53B0AEA960DC7F2DFA93 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9171CB8E9DA87FDDADF023E3 /* SettingsView.swift */; };
+		32A68263EDCABDD940F77EC0 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D001D76CED8B4B0681EE3F4 /* AppModel.swift */; };
+		3A7F7C3D4D8E4F919E4D07E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C0B3BE40A6047458D689744 /* LaunchScreen.storyboard */; };
+		431607BCF01BB13235CBCB60 /* DailyPuzzleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F564AB20AC0AAC5A43BB71E3 /* DailyPuzzleView.swift */; };
+		4E284A5491FBBD486DD2458C /* ProgressStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = E488B1993F4D97C6D8782108 /* ProgressStorage.swift */; };
+		52426DCDE3EA36971D634BB8 /* OneTurnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 013E17548157E66B8158D2FB /* OneTurnApp.swift */; };
+		63B87637A12961E86EB78C09 /* PuzzlePlayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20AB35997AA76D6E10547F52 /* PuzzlePlayView.swift */; };
+		6CCABC0F48948B10C012A360 /* PuzzleLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4FF23CEA77B55441998FEA9C /* PuzzleLibrary.swift */; };
+		742950DB5C12F8D6AD4F952B /* PuzzleEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB530EE396E24FE98C51C0C1 /* PuzzleEngine.swift */; };
+		77D03F0213B99FF5BC6EDEDE /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2742B68F77D17AB8088FD30 /* HomeView.swift */; };
+		78FC3D9335E352C83B5EA272 /* ThemePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 436E7E00E5856E5BACC51CB0 /* ThemePickerView.swift */; };
+		93D5E33A55C7A5C38E5EB4EE /* HapticsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC122A6A4A029A2E1ACEA724 /* HapticsManager.swift */; };
+		9A5B985C6ECC8B4DAE44327B /* VisualStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AD09D1F9767B9D2DE21C263 /* VisualStyle.swift */; };
+		A570F50F920C6D9ACE335932 /* DailyPuzzleService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA3D61366BEC0AF47F08B58D /* DailyPuzzleService.swift */; };
+		B818AA9E58F3E59843F129FC /* OneTurnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79C299F849C8CFB918098265 /* OneTurnTests.swift */; };
+		C6C76DAA5213AB061E340AD7 /* PuzzleBoardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2672E7209D4221147B902E45 /* PuzzleBoardView.swift */; };
+		C8E9B55B824A7B097378634D /* CoreModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66A1FC062D982256A44D4C41 /* CoreModels.swift */; };
+		D1577BD92E43501EAC9EA206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3C2EC1687FF7C26A204E7B9 /* Assets.xcassets */; };
+		D6357CB05F82A6D099BF06AD /* EndlessModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 632183ADB8B08C3AE3577EE8 /* EndlessModeView.swift */; };
+		DD13C28DB47496BF15503BB7 /* StudioModeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1A809DCDD6887D68784BC83 /* StudioModeView.swift */; };
+		E6E90EA7C418A96C4CAD7642 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E11B235ED1D71B362942FA1C /* StatsView.swift */; };
+		F39F44EDE60EDCA0276F803C /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83FC19CC67C7E5DA39FC663D /* GameSession.swift */; };
+		F9A4B9C13690F13DE304F4A1 /* SoundManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0CC1D518D0F136B8374FC6F /* SoundManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FA51BD0923B334EF26BF15CD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 10D433BFD669F8262EB0D96E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55F867DE80DB9EB15010DD08;
+			remoteInfo = OneTurn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013E17548157E66B8158D2FB /* OneTurnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTurnApp.swift; sourceTree = "<group>"; };
+		0A0A4C42BDE93D91DB8325A0 /* DiagnosticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiagnosticsService.swift; sourceTree = "<group>"; };
+		0A0A4C44BDE93D9FDB8325A0 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		20AB35997AA76D6E10547F52 /* PuzzlePlayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzlePlayView.swift; sourceTree = "<group>"; };
+		2672E7209D4221147B902E45 /* PuzzleBoardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleBoardView.swift; sourceTree = "<group>"; };
+		2AC66B89CDA97671F97A7F35 /* OneTurnTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = OneTurnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D001D76CED8B4B0681EE3F4 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		436E7E00E5856E5BACC51CB0 /* ThemePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemePickerView.swift; sourceTree = "<group>"; };
+		4FF23CEA77B55441998FEA9C /* PuzzleLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleLibrary.swift; sourceTree = "<group>"; };
+		632183ADB8B08C3AE3577EE8 /* EndlessModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndlessModeView.swift; sourceTree = "<group>"; };
+		66A1FC062D982256A44D4C41 /* CoreModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreModels.swift; sourceTree = "<group>"; };
+		79C299F849C8CFB918098265 /* OneTurnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneTurnTests.swift; sourceTree = "<group>"; };
+		83FC19CC67C7E5DA39FC663D /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		8AD09D1F9767B9D2DE21C263 /* VisualStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualStyle.swift; sourceTree = "<group>"; };
+		8C0B3BE40A6047458D689744 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9171CB8E9DA87FDDADF023E3 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A2742B68F77D17AB8088FD30 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		AC122A6A4A029A2E1ACEA724 /* HapticsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HapticsManager.swift; sourceTree = "<group>"; };
+		BA3EA802E963D6499C575ACA /* OneTurn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneTurn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3D61366BEC0AF47F08B58D /* DailyPuzzleService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPuzzleService.swift; sourceTree = "<group>"; };
+		DB530EE396E24FE98C51C0C1 /* PuzzleEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuzzleEngine.swift; sourceTree = "<group>"; };
+		DDA2860209C0CCD69E825726 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		E11B235ED1D71B362942FA1C /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		E488B1993F4D97C6D8782108 /* ProgressStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressStorage.swift; sourceTree = "<group>"; };
+		F0CC1D518D0F136B8374FC6F /* SoundManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManager.swift; sourceTree = "<group>"; };
+		F1A809DCDD6887D68784BC83 /* StudioModeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudioModeView.swift; sourceTree = "<group>"; };
+		F3C2EC1687FF7C26A204E7B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F564AB20AC0AAC5A43BB71E3 /* DailyPuzzleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyPuzzleView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		51ED60DD04727EA8A452289A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				0A0A4C44BDE93D9FDB8325A0 /* AnalyticsService.swift */,
+				DA3D61366BEC0AF47F08B58D /* DailyPuzzleService.swift */,
+				0A0A4C42BDE93D91DB8325A0 /* DiagnosticsService.swift */,
+				AC122A6A4A029A2E1ACEA724 /* HapticsManager.swift */,
+				E488B1993F4D97C6D8782108 /* ProgressStorage.swift */,
+				4FF23CEA77B55441998FEA9C /* PuzzleLibrary.swift */,
+				F0CC1D518D0F136B8374FC6F /* SoundManager.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		525E63E8588778F56E972CDD /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				A2742B68F77D17AB8088FD30 /* HomeView.swift */,
+				DDA2860209C0CCD69E825726 /* OnboardingView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8F3558143CEBEA10AC5D13C4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				66A1FC062D982256A44D4C41 /* CoreModels.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		975B29FA68FF5576C6822C16 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3D001D76CED8B4B0681EE3F4 /* AppModel.swift */,
+				013E17548157E66B8158D2FB /* OneTurnApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		9AD4737692F0E5EAA8BF9958 /* Game */ = {
+			isa = PBXGroup;
+			children = (
+				F564AB20AC0AAC5A43BB71E3 /* DailyPuzzleView.swift */,
+				632183ADB8B08C3AE3577EE8 /* EndlessModeView.swift */,
+				83FC19CC67C7E5DA39FC663D /* GameSession.swift */,
+				2672E7209D4221147B902E45 /* PuzzleBoardView.swift */,
+				20AB35997AA76D6E10547F52 /* PuzzlePlayView.swift */,
+				F1A809DCDD6887D68784BC83 /* StudioModeView.swift */,
+			);
+			path = Game;
+			sourceTree = "<group>";
+		};
+		A73551C489F87C967E070BC2 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				9171CB8E9DA87FDDADF023E3 /* SettingsView.swift */,
+				436E7E00E5856E5BACC51CB0 /* ThemePickerView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		A7CB0EDF2C98017E7513B030 /* Stats */ = {
+			isa = PBXGroup;
+			children = (
+				E11B235ED1D71B362942FA1C /* StatsView.swift */,
+			);
+			path = Stats;
+			sourceTree = "<group>";
+		};
+		AD6A552D1E75EBBDC3F89A5C /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				8AD09D1F9767B9D2DE21C263 /* VisualStyle.swift */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		C6CA52C3220E7C245B14C795 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				9AD4737692F0E5EAA8BF9958 /* Game */,
+				525E63E8588778F56E972CDD /* Home */,
+				A73551C489F87C967E070BC2 /* Settings */,
+				AD6A552D1E75EBBDC3F89A5C /* Shared */,
+				A7CB0EDF2C98017E7513B030 /* Stats */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDF06C290F49C1DA94E9F259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA3EA802E963D6499C575ACA /* OneTurn.app */,
+				2AC66B89CDA97671F97A7F35 /* OneTurnTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D54D3363FB1030C38194430A = {
+			isa = PBXGroup;
+			children = (
+				F4B117600BDDD5BD31F66FAC /* OneTurn */,
+				DA8645CD0108DFB15FB0A3E9 /* OneTurnTests */,
+				CDF06C290F49C1DA94E9F259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA8645CD0108DFB15FB0A3E9 /* OneTurnTests */ = {
+			isa = PBXGroup;
+			children = (
+				79C299F849C8CFB918098265 /* OneTurnTests.swift */,
+			);
+			name = OneTurnTests;
+			path = Tests/OneTurnTests;
+			sourceTree = "<group>";
+		};
+		E4A8C2BFFAD1EC81E6C30027 /* Engine */ = {
+			isa = PBXGroup;
+			children = (
+				DB530EE396E24FE98C51C0C1 /* PuzzleEngine.swift */,
+			);
+			path = Engine;
+			sourceTree = "<group>";
+		};
+		F4B117600BDDD5BD31F66FAC /* OneTurn */ = {
+			isa = PBXGroup;
+			children = (
+				F3C2EC1687FF7C26A204E7B9 /* Assets.xcassets */,
+				8C0B3BE40A6047458D689744 /* LaunchScreen.storyboard */,
+				975B29FA68FF5576C6822C16 /* App */,
+				E4A8C2BFFAD1EC81E6C30027 /* Engine */,
+				8F3558143CEBEA10AC5D13C4 /* Models */,
+				51ED60DD04727EA8A452289A /* Services */,
+				C6CA52C3220E7C245B14C795 /* Views */,
+			);
+			name = OneTurn;
+			path = Sources/OneTurn;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46C22FEB67DBF1609FBD1455 /* OneTurnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1508160ABE1C4997B10573E /* Build configuration list for PBXNativeTarget "OneTurnTests" */;
+			buildPhases = (
+				C95E88BA26DBB47FADB40998 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2532D24E34452272FF73CC1 /* PBXTargetDependency */,
+			);
+			name = OneTurnTests;
+			packageProductDependencies = (
+			);
+			productName = OneTurnTests;
+			productReference = 2AC66B89CDA97671F97A7F35 /* OneTurnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55F867DE80DB9EB15010DD08 /* OneTurn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 260A04BC540959A820EAE4F4 /* Build configuration list for PBXNativeTarget "OneTurn" */;
+			buildPhases = (
+				130C171F120FE06A97FA78BD /* Sources */,
+				589E9565C7981F0E0C31BA3E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneTurn;
+			packageProductDependencies = (
+			);
+			productName = OneTurn;
+			productReference = BA3EA802E963D6499C575ACA /* OneTurn.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		10D433BFD669F8262EB0D96E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1430;
+			};
+			buildConfigurationList = 7023126E2826D4FB90A2AC41 /* Build configuration list for PBXProject "OneTurn" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = D54D3363FB1030C38194430A;
+			minimizedProjectReferenceProxies = 1;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55F867DE80DB9EB15010DD08 /* OneTurn */,
+				46C22FEB67DBF1609FBD1455 /* OneTurnTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		589E9565C7981F0E0C31BA3E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1577BD92E43501EAC9EA206 /* Assets.xcassets in Resources */,
+				3A7F7C3D4D8E4F919E4D07E6 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		130C171F120FE06A97FA78BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0A4C45BDE93D9FDB8325A0 /* AnalyticsService.swift in Sources */,
+				32A68263EDCABDD940F77EC0 /* AppModel.swift in Sources */,
+				C8E9B55B824A7B097378634D /* CoreModels.swift in Sources */,
+				A570F50F920C6D9ACE335932 /* DailyPuzzleService.swift in Sources */,
+				431607BCF01BB13235CBCB60 /* DailyPuzzleView.swift in Sources */,
+				0A0A4C43BDE93D91DB8325A0 /* DiagnosticsService.swift in Sources */,
+				D6357CB05F82A6D099BF06AD /* EndlessModeView.swift in Sources */,
+				F39F44EDE60EDCA0276F803C /* GameSession.swift in Sources */,
+				93D5E33A55C7A5C38E5EB4EE /* HapticsManager.swift in Sources */,
+				77D03F0213B99FF5BC6EDEDE /* HomeView.swift in Sources */,
+				028B0F55E1C9E4940D970B2A /* OnboardingView.swift in Sources */,
+				52426DCDE3EA36971D634BB8 /* OneTurnApp.swift in Sources */,
+				4E284A5491FBBD486DD2458C /* ProgressStorage.swift in Sources */,
+				C6C76DAA5213AB061E340AD7 /* PuzzleBoardView.swift in Sources */,
+				742950DB5C12F8D6AD4F952B /* PuzzleEngine.swift in Sources */,
+				6CCABC0F48948B10C012A360 /* PuzzleLibrary.swift in Sources */,
+				63B87637A12961E86EB78C09 /* PuzzlePlayView.swift in Sources */,
+				201F53B0AEA960DC7F2DFA93 /* SettingsView.swift in Sources */,
+				F9A4B9C13690F13DE304F4A1 /* SoundManager.swift in Sources */,
+				E6E90EA7C418A96C4CAD7642 /* StatsView.swift in Sources */,
+				DD13C28DB47496BF15503BB7 /* StudioModeView.swift in Sources */,
+				78FC3D9335E352C83B5EA272 /* ThemePickerView.swift in Sources */,
+				9A5B985C6ECC8B4DAE44327B /* VisualStyle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C95E88BA26DBB47FADB40998 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B818AA9E58F3E59843F129FC /* OneTurnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2532D24E34452272FF73CC1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55F867DE80DB9EB15010DD08 /* OneTurn */;
+			targetProxy = FA51BD0923B334EF26BF15CD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D845637804B0FE9BA42C1B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "One Turn";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		39972925E302F247E0654FDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherbivins.OneTurnTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneTurn.app/OneTurn";
+			};
+			name = Release;
+		};
+		598C70B69AE1D5A43CBEDAA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6MSACQUF2C;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherbivins.oneturn;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		D0038A104D234CF62D6E4D2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherbivins.OneTurnTests;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneTurn.app/OneTurn";
+			};
+			name = Debug;
+		};
+		DDA950AF7FF285A0A13CC90F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "One Turn";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.games";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		EF488DD3F0A00AA67B57A115 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = 6MSACQUF2C;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.christopherbivins.oneturn;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		260A04BC540959A820EAE4F4 /* Build configuration list for PBXNativeTarget "OneTurn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				598C70B69AE1D5A43CBEDAA2 /* Debug */,
+				EF488DD3F0A00AA67B57A115 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		7023126E2826D4FB90A2AC41 /* Build configuration list for PBXProject "OneTurn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDA950AF7FF285A0A13CC90F /* Debug */,
+				2D845637804B0FE9BA42C1B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F1508160ABE1C4997B10573E /* Build configuration list for PBXNativeTarget "OneTurnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0038A104D234CF62D6E4D2E /* Debug */,
+				39972925E302F247E0654FDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 10D433BFD669F8262EB0D96E /* Project object */;
+}
